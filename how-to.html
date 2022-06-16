@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%;">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>projectRooted</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/Responsive-Active-Navbar.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body style="height: 100%;background: rgb(33,37,41);">
+    <nav class="navbar navbar-expand-custom navbar-mainbg" style="background: rgb(33,37,41);"><a class="navbar-brand navbar-logo" href="index.html" style="background: rgb(33,37,41);color: rgb(255,255,255);">Project Rooted</a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-bs-label="Toggle navigation"><i class="fa fa-star fas fa-bars text-white"></i></button>
+        <div class="d-lg-flex justify-content-lg-end collapse navbar-collapse" id="navbarSupportedContent" style="color: rgb(33, 37, 41);background: rgb(33,37,41);">
+            <ul class="navbar-nav ml-auto">
+                <div class="hori-selector">
+                    <div class="left"></div>
+                </div>
+                <li class="nav-item"></li>
+                <li class="nav-item active"></li>
+                <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa fa-home far fa-clone"></i>Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="forms.html"><i class="fa fa-wpforms far fa-clone"></i>Request Forms</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about"><i class="far fa-user far fa-calendar-alt"></i>About</a></li>
+                <li class="nav-item"><a class="nav-link" href="how-to.html"><i class="far fa-list-alt far fa-calendar-alt"></i>How To</a></li>
+                <li class="nav-item"><a class="nav-link" href="downloads.html"><i class="fas fa-download far fa-chart-bar"></i>Downloads</a></li>
+                <li class="nav-item"></li>
+            </ul>
+        </div>
+    </nav>
+    <div style="color: rgb(255,255,255);background: rgb(33,37,41);margin-top: 35px;">
+        <h1 class="text-center">How to build a Pre-Rooted Rom</h1>
+        <p style="color: rgb(255,255,255);padding: 20px;">This guide is based off of how to for the Pixel devices and may not work for ALL devices but at the very least shows the concept for the process of a Pre-Rooted Rom. Do Remember that for the devices we support you can grab roms already done from the <a href="downloads.html">Downloads page</a>&nbsp;and if you want to help maintain your device with Pre-Rooted Roms you can apply on the <a href="forms.html">Forms</a> page.</p>
+    </div>
+    <div style="color: rgb(255,255,255);background: rgb(33,37,41);margin-top: 35px;">
+        <h1 class="text-center" id="about">Step 1</h1>
+        <p style="color: rgb(255,255,255);padding: 20px;text-align: center;">After downloading the rom you will want to extract the file and look for the boot.img file</p>
+        <div style="text-align: center;"></div>
+    </div>
+    <div style="color: rgb(255,255,255);background: rgb(33,37,41);margin-top: 35px;">
+        <h1 class="text-center" id="about-1">Step 2</h1>
+        <p style="color: rgb(255,255,255);padding: 20px;text-align: center;">After finding the boot.img plug your phone in and copy that boot.img file over to your phones "Downloads" folder. You may need to press the notification and change the option to allow file transfer between your phone and your computer</p>
+        <div style="text-align: center;"></div>
+    </div>
+    <div style="color: rgb(255,255,255);background: rgb(33,37,41);margin-top: 35px;">
+        <h1 class="text-center" id="about-2">Step 3</h1>
+        <p style="color: rgb(255,255,255);padding: 20px;text-align: center;">Once you have the boot image copied you can unplug the phone and patch the boot image from magisk by pressing "install" from the home screen. You will then select the boot.img from your downloads folder and then press the "Install" button in the top right corner and wait until it says "Complete"</p>
+        <div style="text-align: center;"></div>
+    </div>
+    <div style="color: rgb(255,255,255);background: rgb(33,37,41);margin-top: 35px;">
+        <h1 class="text-center" id="about-3">Step 4</h1>
+        <p style="color: rgb(255,255,255);padding: 20px;text-align: center;">At this point you need to plug the phone back into your computer and possibly redo the allowing of file transfer. You can then cop the new file from your downloads that has "magisk_patched" in the name into the original rom folder you extracted.</p>
+        <div style="text-align: center;"></div>
+    </div>
+    <div style="color: rgb(255,255,255);background: rgb(33,37,41);margin-top: 35px;">
+        <h1 class="text-center" id="about-4">Step 5</h1>
+        <p style="color: rgb(255,255,255);padding: 20px;text-align: center;">After copying the pached image over you can now delete the ORIGINAL boot.img and be sure to rename the magisk pached image to "boot"</p>
+        <div style="text-align: center;"></div>
+    </div>
+    <div style="color: rgb(255,255,255);background: rgb(33,37,41);margin-top: 35px;">
+        <h1 class="text-center" id="about-5">Step 6</h1>
+        <p style="color: rgb(255,255,255);padding: 20px;padding-bottom: 25px;text-align: center;">I recommend using 7zip to "archive" the files as windows default zipping tool will zip the files within another zip folder. so using 7zip you want to select all the files in your rom folder&gt;Right Click&gt;press "Add to archive"&gt; and then "okay" at the bottom of the pop-up window. After waiting the new zip folder you have is now a pre-rooted rom that you have just made yourself. you may now flash however it is that you do normally and enjoy a Pre-Rooted rom</p>
+        <div style="text-align: center;"></div>
+    </div><!-- Default Statcounter code for Project Rooted
+https://projectrooted.github.io/index.html -->
+<script type="text/javascript">
+    var sc_project=12763243; 
+    var sc_invisible=1; 
+    var sc_security="7aad9007"; 
+    </script>
+    <script type="text/javascript"
+    src="https://www.statcounter.com/counter/counter.js"
+    async></script>
+    <noscript><div class="statcounter"><a title="Web Analytics
+    Made Easy - Statcounter" href="https://statcounter.com/"
+    target="_blank"><img class="statcounter"
+    src="https://c.statcounter.com/12763243/0/7aad9007/1/"
+    alt="Web Analytics Made Easy - Statcounter"
+    referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+    <!-- End of Statcounter Code -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/Responsive-Active-Navbar.js"></script>
+</body>
+
+</html>
